@@ -9,6 +9,7 @@ from modulo_01.Ex18 import *
 from modulo_01.Ex23 import *
 from modulo_01.Ex34 import *
 from modulo_01.Ex35 import *
+from modulo_01.Ex33 import *
 
 
 ##from modulo_01.Ex06 import Ex06
@@ -31,6 +32,8 @@ def main():
             Ex18()
         elif(ops==23):
             Ex23()
+        elif(ops==33):
+            Ex33()
         elif(ops==34):
             Ex34()
         elif(ops==35):
