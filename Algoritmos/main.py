@@ -3,16 +3,14 @@
 #Algoritmos e Lógica de Programação
 #Ricardo Satoshi
 
-from modulo_01.Ex06 import *
-from modulo_01.Ex07 import *
-from modulo_01.Ex18 import *
-from modulo_01.Ex23 import *
-from modulo_01.Ex34 import *
-from modulo_01.Ex35 import *
-from modulo_01.Ex33 import *
-
-
-##from modulo_01.Ex06 import Ex06
+from modulo_01.Ex06 import Ex06
+from modulo_01.Ex07 import Ex07
+from modulo_01.Ex18 import Ex18
+from modulo_01.Ex23 import Ex23
+from modulo_01.Ex33 import Ex33
+from modulo_01.Ex34 import Ex34
+from modulo_01.Ex35 import Ex35
+from modulo_01.Ex41 import Ex41
 
 """Módulo de controle para visualizar os exercícios"""
 
@@ -25,7 +23,7 @@ def main():
         ops = int(input("Digite o número de um exercício para executá-lo, ou 0 para finalizar: "))
 
         if(ops==6):
-            Ex06()
+            modulo_01.Ex06()
         elif(ops==7):
             Ex07()
         elif(ops==18):
@@ -38,6 +36,8 @@ def main():
             Ex34()
         elif(ops==35):
             Ex35()
+        elif(ops==41):
+            Ex41()
         elif(ops==0):
             print("Programa Finalizado")
         else:
