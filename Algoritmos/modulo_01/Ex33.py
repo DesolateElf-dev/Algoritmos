@@ -13,7 +13,7 @@ def Ex33():
         if i == 0:
             sum = 1
         else:
-            print(sum," + 1/",i)
+            #print(sum," + 1/",i)
             sum = sum + 1/i
 
-        print("O resultado é:",sum)
+    print("O resultado é:",sum)
