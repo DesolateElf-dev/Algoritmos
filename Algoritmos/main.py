@@ -26,7 +26,7 @@ def main():
         ops = int(input("Digite o número de um exercício para executá-lo, ou 0 para finalizar: "))
 
         if(ops==6):
-            modulo_01.Ex06()
+            Ex06()
         elif(ops==7):
             Ex07()
         elif(ops==16):
