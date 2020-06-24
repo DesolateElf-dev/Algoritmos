@@ -14,7 +14,6 @@ def Ex16():
         print('O salário à receber é: R$',salario_liquido)
 
 
-    print("Calculo da média e resultado (Aprovado/Exame/Reprovado)")
     horas = int(input("Horas trabalhadas: "))
     val_hora = int(input("Valor por hora: "))
     desconto = int(input("Percentual de desconto: "))

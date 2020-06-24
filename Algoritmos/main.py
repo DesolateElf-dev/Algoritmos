@@ -6,9 +6,14 @@
 from modulo_01.Ex06 import Ex06
 from modulo_01.Ex07 import Ex07
 from modulo_01.Ex16 import Ex16
+from modulo_01.Ex17 import Ex17
 from modulo_01.Ex18 import Ex18
+from modulo_01.Ex19 import Ex19
+from modulo_01.Ex20 import Ex20
 from modulo_01.Ex21 import Ex21
+from modulo_01.Ex22 import Ex22
 from modulo_01.Ex23 import Ex23
+from modulo_01.Ex24 import Ex24
 from modulo_01.Ex25 import Ex25
 from modulo_01.Ex33 import Ex33
 from modulo_01.Ex34 import Ex34
@@ -31,12 +36,22 @@ def main():
             Ex07()
         elif(ops==16):
             Ex16()
+        elif(ops==17):
+            Ex17()
         elif(ops==18):
             Ex18()
+        elif(ops==19):
+            Ex19()
+        elif(ops==20):
+            Ex20()
         elif(ops==21):
             Ex21()
+        elif(ops==22):
+            Ex22()
         elif(ops==23):
             Ex23()
+        elif(ops==24):
+            Ex24()
         elif(ops==25):
             Ex25()
         elif(ops==33):
