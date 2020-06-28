@@ -5,15 +5,8 @@
 
 #def Ex37():
     
-n = int(input("Digite o valor de n: ")
-        
-for i in range(0,10):
-    
+n = int(input("Digite o valor de n: "))
+
+for i in range(0,n+1):
     if i == 0:
-        n1 = i
-        print(n1,", ", end="")
-        n2 = n1
-    else:
-        n1 = n1+n2
-        print(n1,", ", end="")
-        n2 = n1
+        
